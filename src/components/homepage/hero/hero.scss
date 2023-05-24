@@ -1,0 +1,154 @@
+.hero__container {
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+  row-gap: 50px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+    h3 {
+      font-family: 'Brandon Grotesque';
+      font-style: normal;
+      font-weight: 390;
+      font-size: 55px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Brandon Grotesque';
+      font-style: normal;
+      font-weight: 450;
+      font-size: 95.1339px;
+      line-height: 115px;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #261F22;
+    }
+
+    p {
+      font-family: var(--proxima);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.7883px;
+      line-height: 24px;
+      margin: 0 100px;
+      /* or 143% */
+
+      text-align: center;
+      color: rgba(38, 31, 34, 0.75);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 25.58px;
+    // border: 2px solid black;
+
+    a {
+      text-decoration: none;
+    }
+
+    &--work,
+    &--hire {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 40px;
+      column-gap: 10px;
+
+      border-radius: 80px;
+      filter: drop-shadow(0px 3.19778px 3.99722px rgba(0, 0, 0, 0.48));
+
+      cursor: pointer;
+
+      &:hover {
+        position: relative;
+        top: -10px;
+      }
+    }
+
+    &--work {
+      background: linear-gradient(90deg, #FE572E 0%, #FC3A79 100%);
+      filter: drop-shadow(0px 3.19778px 3.99722px rgba(0, 0, 0, 0.48));
+
+      p {
+        font-family: var(--proxima);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16.7883px;
+        line-height: 24px;
+        color: var(--white);
+      }
+    }
+
+    &--hire {
+      border: 2px solid transparent;
+
+      p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16.7883px;
+      }
+
+      img {
+        width: 100%;
+        width: 27px;
+      }
+    }
+  }
+
+
+}
+
+
+.hero__companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 250px;
+  row-gap: 25.58px;
+
+  background: var(--gradient);
+
+  &__text p {
+    font-family: var(--proxima);
+    font-style: normal;
+    // font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    
+    text-align: center;
+    letter-spacing: 0.08em;
+    
+    color: white;
+  }
+  
+  &__logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+    // border: solid black 5px;
+    gap: 30px;
+    
+    img {
+      height: 30px;
+    }
+  }
+}

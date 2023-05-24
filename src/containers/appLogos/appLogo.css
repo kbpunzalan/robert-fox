@@ -1,0 +1,21 @@
+.applogo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28.8px;
+  gap: 12.8px;
+  text-align: center;
+  height: 128px;
+  width: 151.04px;
+  background: var(--grayish-black);
+  border-radius: 12px;
+}
+.applogo__container p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.4308px;
+  line-height: 21px;
+  color: var(--white);
+}/*# sourceMappingURL=appLogo.css.map */

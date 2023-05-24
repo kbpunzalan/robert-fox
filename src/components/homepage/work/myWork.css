@@ -1,0 +1,85 @@
+.mywork {
+  display: block;
+}
+.mywork__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 370px;
+  margin-right: 370px;
+  gap: 25.58px;
+}
+.mywork__text h3 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 57.56px;
+  line-height: 47px;
+  color: var(--black);
+}
+.mywork__text p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7883px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(38, 31, 34, 0.75);
+}
+.mywork__pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mywork__pictures img {
+  width: 1000px;
+}
+.mywork__testimonial {
+  margin: 0 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.mywork__testimonial p {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 33.5767px;
+  line-height: 38px;
+  text-align: center;
+  color: var(--black);
+}
+.mywork__testimonial__person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.5px;
+}
+.mywork__testimonial__person__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 1.6px;
+}
+.mywork__testimonial__person__text h4 {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: var(--black);
+}
+.mywork__testimonial__person__text p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.9917px;
+  line-height: 15px;
+  text-align: center;
+  color: var(--black);
+}/*# sourceMappingURL=myWork.css.map */

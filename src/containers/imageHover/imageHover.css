@@ -1,0 +1,50 @@
+.imageHover__content {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  border: 2.4px solid rgb(252, 58, 121);
+  border-radius: 12px;
+  position: relative;
+}
+.imageHover__content img {
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 800ms;
+}
+.imageHover__content img:hover {
+  opacity: 0.1;
+}
+.imageHover__content__text {
+  max-width: 100%;
+  max-width: 100%;
+  padding: 38px 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25.6px;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.imageHover__content__text h5 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--black);
+}
+.imageHover__content__text p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.8px;
+  line-height: 24px;
+  color: rgba(38, 31, 34, 0.75);
+}/*# sourceMappingURL=imageHover.css.map */

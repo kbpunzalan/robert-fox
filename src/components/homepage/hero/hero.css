@@ -1,0 +1,124 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+  row-gap: 50px;
+}
+.hero__container__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.hero__container__text h3 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 390;
+  font-size: 55px;
+  text-align: center;
+}
+.hero__container__text h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 95.1339px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #261F22;
+}
+.hero__container__text p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7883px;
+  line-height: 24px;
+  margin: 0 100px;
+  /* or 143% */
+  text-align: center;
+  color: rgba(38, 31, 34, 0.75);
+}
+.hero__container__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 25.58px;
+}
+.hero__container__buttons a {
+  text-decoration: none;
+}
+.hero__container__buttons--work, .hero__container__buttons--hire {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  border-radius: 80px;
+  filter: drop-shadow(0px 3.19778px 3.99722px rgba(0, 0, 0, 0.48));
+  cursor: pointer;
+}
+.hero__container__buttons--work:hover, .hero__container__buttons--hire:hover {
+  position: relative;
+  top: -10px;
+}
+.hero__container__buttons--work {
+  background: linear-gradient(90deg, #FE572E 0%, #FC3A79 100%);
+  filter: drop-shadow(0px 3.19778px 3.99722px rgba(0, 0, 0, 0.48));
+}
+.hero__container__buttons--work p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.7883px;
+  line-height: 24px;
+  color: var(--white);
+}
+.hero__container__buttons--hire {
+  border: 2px solid transparent;
+}
+.hero__container__buttons--hire p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.7883px;
+}
+.hero__container__buttons--hire img {
+  width: 100%;
+  width: 27px;
+}
+
+.hero__companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 250px;
+  row-gap: 25.58px;
+  background: var(--gradient);
+}
+.hero__companies__text p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: white;
+}
+.hero__companies__logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: center;
+  gap: 30px;
+}
+.hero__companies__logos img {
+  height: 30px;
+}/*# sourceMappingURL=hero.css.map */

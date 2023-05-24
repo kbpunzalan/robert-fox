@@ -1,0 +1,88 @@
+.footerContent__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.footerContent__container__details {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 76.75px;
+}
+.footerContent__container__details__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25.58px;
+}
+.footerContent__container__details__content h3 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 33.5767px;
+  line-height: 38px;
+  color: var(--black);
+}
+.footerContent__container__details__content p {
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7883px;
+  line-height: 24px;
+  color: rgba(38, 31, 34, 0.75);
+}
+.footerContent__container__details__content__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 25.58px;
+}
+.footerContent__container__details__content__contact p {
+  cursor: pointer;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57823px;
+  line-height: 12px;
+  color: var(--black);
+}
+.footerContent__container__details__cta {
+  display: flex;
+}
+.footerContent__container__details__cta a {
+  padding: 19.1867px 38.3733px;
+  border-radius: 79.9445px;
+  font-family: var(--proxima);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.7883px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+.footerContent__container__vertical-bar {
+  width: 2px;
+  height: 137px;
+  background: linear-gradient(to bottom, #FE572E 0%, #FC3A79 100%);
+}
+.footerContent__container__up-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 100px;
+}
+.footerContent__container__up-button img {
+  width: 25px;
+}/*# sourceMappingURL=footerContent.css.map */

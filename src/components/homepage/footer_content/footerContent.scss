@@ -1,0 +1,112 @@
+// .footerContent__container__up-button {
+//   position: fixed;
+//   bottom: 100px;
+//   right: 100px;
+// }
+
+.footerContent__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  &__details {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 76.75px;
+    // border: 1px solid black;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 25.58px;
+
+      h3 {
+        font-family: 'Brandon Grotesque';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 33.5767px;
+        line-height: 38px;
+        color: var(--black);
+      }
+
+      p {
+        font-family: var(--proxima);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.7883px;
+        line-height: 24px;
+        color: rgba(38, 31, 34, 0.75);
+      }
+
+      &__contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 25.58px;
+
+        p {
+          cursor: pointer;
+
+          font-family: 'Proxima Nova';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 9.57823px;
+          line-height: 12px;
+          color: var(--black);
+        }
+
+      }
+    }
+
+    &__cta {
+      display: flex;
+
+      a {
+        padding: 19.1867px 38.3733px;
+        border-radius: 79.9445px;
+
+        font-family: var(--proxima);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16.7883px;
+        line-height: 24px;
+        color: var(--white);
+        text-decoration: none;
+
+      }
+    }
+  }
+
+  &__vertical-bar {
+    width: 2px;
+    height: 137px;
+    background: linear-gradient(to bottom, #FE572E 0%, #FC3A79 100%);
+  }
+
+  &__up-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    border-radius: 100px;
+
+    img {
+      width: 25px;
+    }
+
+  }
+}

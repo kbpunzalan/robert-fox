@@ -1,0 +1,76 @@
+.testimonials__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 51.2px;
+  gap: 51.2px;
+
+  width: 579.2px;
+  height: 399.92px;
+
+  background: var(--white);
+  box-shadow: 0px 80px 64px rgba(0, 0, 0, 0.07), 0px 33.4221px 26.7377px rgba(0, 0, 0, 0.0503198), 0px 17.869px 14.2952px rgba(0, 0, 0, 0.0417275), 0px 10.0172px 8.01379px rgba(0, 0, 0, 0.035), 0px 5.32008px 4.25607px rgba(0, 0, 0, 0.0282725), 0px 2.21381px 1.77104px rgba(0, 0, 0, 0.0196802);
+  border-radius: 12px;
+
+  h4 {
+    font-family: 'Brandon Grotesque';
+    font-style: normal;
+    font-weight: 390;
+    font-size: 33.6px;
+    line-height: 38px;
+    /* or 114% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: var(--black);
+  }
+
+  &__person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 9.6px;
+
+    &__name {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 1.6px;
+
+      h5 {
+        font-family: var(--proxima);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: var(--black);
+      }
+
+      p {
+        font-family: var(--proxima);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: var(--black);
+
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,38 @@
+.whatYouGet__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12.8px;
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12.8px;
+
+    h5 {
+      font-family: 'Brandon Grotesque';
+      font-style: normal;
+      font-weight: 450;
+      font-size: 33.6px;
+      line-height: 38px;
+
+      // color: var(--primary);
+    }
+  }
+
+  p {
+    font-family: var(--proxima);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8px;
+    line-height: 24px;
+
+    color: rgba(38, 31, 34, 0.75);
+
+  }
+
+}

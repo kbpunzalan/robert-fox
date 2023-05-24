@@ -1,0 +1,39 @@
+.bars__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+
+  &__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 9.6px;
+
+    // width: 300px;
+    border-radius: 12px;
+
+    h4 {
+
+      font-family: var(--proxima);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.8px;
+      line-height: 24px;
+
+      color: var(--white);
+    }
+  }
+
+  .percentage {
+    p {
+      font-family: 'Brandon Grotesque';
+      font-style: normal;
+      font-weight: 450;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}

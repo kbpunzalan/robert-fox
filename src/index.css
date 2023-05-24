@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-regular?styles=16714,16715,16710,16711,16709,16712,16713');
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2?styles=44818,44819,44822,44823,44817,44816,44820,44821,44812,44813,44814,44815,44810,44811');
+
+:root {
+  --proxima: 'Proxima Nova', sans-serif;
+
+  --primary: #FC3A79;
+  --secondary: #FE572E;
+  --gradient: linear-gradient(90deg, #FE572E 0%, #FC3A79 100%);
+
+  --black: #261F22;
+  --grayish-black: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #4F5362;
+  --white: #FFFFFF;
+
+  --drop-shadow: drop-shadow(0px 130.563px 104.451px rgba(38, 31, 34, 0.07)) drop-shadow(0px 54.5463px 43.637px rgba(38, 31, 34, 0.0503198)) drop-shadow(0px 29.163px 23.3304px rgba(38, 31, 34, 0.0417275)) drop-shadow(0px 16.3486px 13.0788px rgba(38, 31, 34, 0.035)) drop-shadow(0px 8.6826px 6.94608px rgba(38, 31, 34, 0.0282725)) drop-shadow(0px 3.61302px 2.89042px rgba(38, 31, 34, 0.0196802));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.gradient-background {
+  background: var(--gradient);
+}
+
+.content-margin {
+  margin-bottom: 150px;
+}
+
+.light-margin {
+  margin-bottom: 70px;
+}
+
+.ghost-border-gradient {
+  background:
+    linear-gradient(to right, white, white),
+    linear-gradient(to right, #FE572E 0%, #FC3A79 100%);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.hover-background-about-me {
+  background:
+    linear-gradient(0deg, #3f424e, #3f424e),
+    linear-gradient(to right, #FE572E 0%, #FC3A79 100%);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
 }
